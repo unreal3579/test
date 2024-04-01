@@ -28,7 +28,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
 PRODUCT_PACKAGES += \
     bootctrl.taro \
-    bootctrl.taro.recovery
+    bootctrl.taro.recovery \
+	bootctrl.xiaomi_sm7450.recovery
 
 # A/B related packages
 ENABLE_AB := true
