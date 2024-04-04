@@ -87,6 +87,12 @@ TARGET_HAS_GENERIC_KERNEL_HEADERS := true
 PRODUCT_PACKAGES += \
     checkpoint_gc
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/bootctrl \
+    vendor/qcom/opensource/commonsys-intf/display
+
 # VNDK API
 PRODUCT_TARGET_VNDK_VERSION := 31
 
