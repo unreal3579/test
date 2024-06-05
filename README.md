@@ -1,4 +1,4 @@
-# Android device tree Xiaomi 13 Lite (ziyi) for OrangeFox Recovery
+# Android device tree Xiaomi 13 Lite (ziyi) for PBRP Recovery
 
 ## Device specifications
 
