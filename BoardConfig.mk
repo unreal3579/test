@@ -123,7 +123,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_USES_LOGD := true
 
-#Test
+#SELinux
 BOARD_SEPOLICY_DIRS += \
     $(DEVICE_PATH)/sepolicy
    
