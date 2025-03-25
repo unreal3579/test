@@ -129,4 +129,4 @@ BOARD_SEPOLICY_DIRS += \
    
 BOARD_SEPOLICY_UNION += \
     file_contexts \
-	vendor_firmware.te
+    vendor_firmware.te
