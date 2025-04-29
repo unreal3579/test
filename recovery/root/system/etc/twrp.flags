@@ -34,19 +34,3 @@
 
 # Removable storage
 /usbstorage     vfat    /dev/block/sdg1                                 /dev/block/sdg      flags=fsflags=utf8;display="USB Storage";storage;wipeingui;removable
-
-#Test for flash IMG
-/mi_ext_a       emmc    /dev/block/mapper/mi_ext_a                                          flags=display="Mi_EXT Image A";backup=1;flashimg=1
-/mi_ext_b       emmc    /dev/block/mapper/mi_ext_b                                          flags=display="Mi_EXT Image B";backup=1;flashimg=1
-/odm_a          emmc    /dev/block/mapper/odm_a                                             flags=display="Odm Image A";backup=1;flashimg=1
-/odm_b          emmc    /dev/block/mapper/odm_b                                             flags=display="Odm Image B";backup=1;flashimg=1
-/product_a      emmc    /dev/block/mapper/product_a                                         flags=display="Product Image A";backup=1;flashimg=1
-/product_b      emmc    /dev/block/mapper/product_b                                         flags=display="Product Image B";backup=1;flashimg=1
-/system_a       emmc    /dev/block/mapper/system_a                                          flags=display="System Image A";backup=1;flashimg=1
-/system_b       emmc    /dev/block/mapper/system_b                                          flags=display="System Image B";backup=1;flashimg=1
-/system_ext_a   emmc    /dev/block/mapper/system_ext_a                                      flags=display="System_EXT Image A";backup=1;flashimg=1
-/system_ext_b   emmc    /dev/block/mapper/system_ext_b                                      flags=display="System_EXT Image B";backup=1;flashimg=1
-/vendor_a       emmc    /dev/block/mapper/vendor_a                                          flags=display="Vendor Image A";backup=1;flashimg=1
-/vendor_b       emmc    /dev/block/mapper/vendor_b                                          flags=display="Vendor Image B";backup=1;flashimg=1
-/vendor_dlkm_a  emmc    /dev/block/mapper/vendor_dlkm_a                                     flags=display="Vendor_DLKM Image A";backup=1;flashimg=1
-/vendor_dlkm_b  emmc    /dev/block/mapper/vendor_dlkm_b                                     flags=display="Vendor_DLKM Image B";backup=1;flashimg=1
